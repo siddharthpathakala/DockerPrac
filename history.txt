@@ -1,0 +1,503 @@
+    1  yum install docker -y
+    2  docker --version
+    3  which docker
+    4  ls
+    5  cd
+    6  ls
+    7  cd ..
+    8  ls
+    9  cd /bin
+   10  ls
+   11  cd ..
+   12  ls
+   13  ls /tmp.
+   14  ls /tmp
+   15  ls /usr
+   16  ls /usr/bin
+   17  ls
+   18  cd bin
+   19  ls
+   20  cd bash
+   21  ls
+   22  cd
+   23  cd /bin/bash
+   24  ls
+   25  cd
+   26  ls
+   27  cd
+   28  ls
+   29  cd
+   30  ls
+   31  cd ..
+   32  ls
+   33  cd bin
+   34  ls
+   35  ls -a
+   36  ls -l
+   37  ls
+   38  cat bash
+   39  cd
+   40  ls
+   41  service start docker
+   42  service docker start
+   43  docker status
+   44  service docker status
+   45  docker run 
+   46  docker run ubuntu
+   47  docker -ps
+   48  docker ps
+   49  docker ps -a
+   50  docker start silly_wilson
+   51  docker attach solly_wilson
+   52  docker attach silly_wilson
+   53  docker start silly_wilson
+   54  docker attach silly_wilson
+   55  docker --help
+   56  start silly_wilson
+   57  docker start silly_wilson
+   58  docker -ps
+   59  docker ps -a
+   60  b4785e6cc9f3 docker start 
+   61  docker start b4785e6cc9f3 
+   62  docker attach
+   63  docker attach b4785e6cc9f3 
+   64  docker ps
+   65  docker ps -a
+   66  docker images
+   67  docker start silly_wilson
+   68  docker ps -a
+   69  docker run -i SiddhuContainer 
+   70  docker run -i unbutu SiddhuContainer 
+   71  docker run -it unbutu SiddhuContainer 
+   72  docker run -it unbutu SiddhuContainer /usr/bash/
+   73  docker run -it unbutu SiddhuContainer /bin/bash/
+   74  docker ps
+   75  docker ps -a
+   76  docker images
+   77  docker run -it ubuntu /bin/bash/
+   78  service docker start
+   79  docker run -it ubuntu /bin/bash/
+   80  docker run -it ubuntu --name SiddhuContainer /bin/bash/
+   81  exit
+   82  docker --version
+   83  docker ps -a
+   84  docker rm 1d601f541294
+   85  docker rm d1ec05d41ff3
+   86  docker ps -a
+   87  docker ps
+   88  docker images
+   89  docker run -it fd1d8f58e8ae /bin/bash
+   90  cat /etc/os-release 
+   91  docker ps -a
+   92  docker rename 66de29ff7b3b
+   93  docker rename 66de29ff7b3b SiddhuContainer
+   94  docker ps -a
+   95  docker start SiddhuContainer
+   96  docker attach SiddhuContainer
+   97  docker images
+   98  docker ps -a
+   99  docker run -it Siddhu --name Kipi 
+  100  docker run -it SiddhuContainer --name Kipi 
+  101  docker run -it SiddhuContainer --name kipi 
+  102  docker run -it 66de29ff7b3b --name kipi 
+  103  docker run -it ubuntu --name kipi 
+  104  docker run -it fd1d8f58e8ae --name kipi 
+  105  docker ps -a
+  106  docker run -it fd1d8f58e8ae --name kipi /bin/bash
+  107  docker run -it fd1d8f58e8ae -name kipi /bin/bash
+  108  docker run -it --name kipi fd1d8f58e8ae /bin/bash
+  109  docker ps 
+  110  docker ps -a
+  111  docker rm *
+  112  docker rm k*
+  113  docker rm .
+  114  docker rm kipi
+  115  docker rm affectionate_brown
+  116  docker rm serene_cannon
+  117  docker rm 
+  118  [root@ip-172-31-4-25 ~]# docker rm goofy_gagarin
+  119  docker ps -a
+  120  docker rm goofy_gagarin quizzical_cartwright SiddhuContainer
+  121  docker ps -a
+  122  exir
+  123  exit
+  124  ls
+  125  docker ps -a
+  126  docker rm optimistic_galileo
+  127  docker rm epic_hellman
+  128  docker rm pedantic_hugle
+  129  docker rm silly_wilson
+  130  docker ps -a
+  131  docker run ubuntu -it --name SiddhuContainer /bin/bash
+  132  docker run ubuntu -it --name SiddhuContainer /bin/bash/
+  133  docker --version
+  134  service docker status
+  135  docker images
+  136  docker ps -a
+  137  docker run -it --name ubuntu sidCon /bin/bash
+  138  docker run -it --name  sidCon ubuntu /bin/bash
+  139  docker ps -a
+  140  docker run -it --name reethu sidCon /bin/bash
+  141  docker run -it --name reethu ubuntu /bin/bash
+  142  docker ps -a
+  143  docker images
+  144  docker container
+  145  docker stats
+  146  docker run -it unbuntu /bin/bash
+  147  docker images
+  148  docker ps -a
+  149  docker run -it ubuntu /bin/bash
+  150  docker ps -a
+  151  docker rename unruffled_blackburn scrapp
+  152  docker ps -a
+  153  history
+  154  docker searh jenkins
+  155  docker search jenkins
+  156  docker run -it --name NewCon jenkins/jenkins /bin/bash
+  157  docker ps -a
+  158  docker images
+  159  docker search centos
+  160  docker pull centos
+  161  docker images
+  162  docker ps -a
+  163  docker run -it --name jill centos /bin/bash
+  164  docker images
+  165  docker ps -a
+  166  docker images
+  167  docker containers
+  168  docker container
+  169  docker create
+  170  docker create hononolu ubuntu 
+  171  docker create -it --name honolulu ubuntu /bin/bash
+  172  docker ps -a
+  173  docker create -it --name deolo scrapp /bin/bash
+  174  docker images
+  175  docker rm honolulu jill NewCon scrapp reethu
+  176  docker ps -a
+  177  dicker images
+  178  docker images
+  179  docker rm jenkins/jenkins centos
+  180  docker delete image
+  181  docker rm image
+  182  docker rm -rf ubuntu
+  183  docker rm --help
+  184  docker image rm centos
+  185  docker image rm
+  186  docker images
+  187  docker image rm jenkins/jenkins
+  188  docker images
+  189  docker ps -a
+  190  docker run  reethu ubuntu /bin/bash
+  191  docker run --name reethu ubuntu /bin/bash
+  192  docker ps -a
+  193  docker start reethu
+  194  docker attached reethu
+  195  docker attach reethu
+  196  docker attach 15224b1979f5
+  197  docker ps -a
+  198  docker ps 
+  199  docker start reethu
+  200  ps
+  201  docker ps 
+  202  docker start 15224b1979f5
+  203  docker ps
+  204  docker start reethu
+  205  docker ps
+  206  docker ps -a
+  207  docker ps
+  208  service docker start
+  209  docker ps
+  210  docker start 18403f1876f3
+  211  docker ps
+  212  docker attach sidCon
+  213  docker start reethu
+  214  docker ps
+  215  docker start 15224b1979f5
+  216  docker ps
+  217  docker start 15224b1979f5
+  218  docker ps
+  219  exit
+  220  docker images
+  221  docker containers
+  222  docker ps -a
+  223  docker ps
+  224  docker start 15224b1979f5
+  225  docker ps
+  226  service docker start
+  227  docker start 15224b1979f5
+  228  docker ps
+  229  docker start 15224b1979f5
+  230  docker ps
+  231  docker start 18403f1876f3
+  232  docker ps
+  233  docker attach sidCon
+  234  docker diff sidCon
+  235  docker diff reethu
+  236  docker rm reethu
+  237  docker ps -a
+  238  docker run -it --name dasari ubuntu /bin/bash
+  239  docker ps -a
+  240  docker commit sidCon sidimage
+  241  docker images
+  242  docker start 18403f1876f3
+  243  docker ps
+  244  ls /tmp/
+  245  ls /tmp
+  246  docker attach 18403f1876f3
+  247  docker run -it --name Testing sidimage /bin/bash
+  248  docker images
+  249  docker rm image sidimage
+  250  docker image rm sidimage
+  251  docker ps -a
+  252  docker image rm sidimage
+  253  docker images
+  254  history
+  255  exit
+  256  ls
+  257  docker images
+  258  docker ps -a
+  259  ls
+  260  mkdir Dock
+  261  cd Dock/
+  262  vi Dockerfile
+  263  cd
+  264  ls
+  265  cd ..
+  266  cd
+  267  ls
+  268  pwd
+  269  docker build -t test Dock/.
+  270  ls
+  271  cd Dock/
+  272  ls
+  273  cd
+  274  docker images
+  275  docker imgage rm test
+  276  docker image rm test
+  277  docker images
+  278  docker ps -a
+  279  ls
+  280  vi Dock/Dockerfile 
+  281  docker build -t AmznLinux Dock/.
+  282  docker build -t amznLinux Dock/.
+  283  docker build -t amznlnux Dock/.
+  284  docker images
+  285  vi Dock/Dockerfile 
+  286  docker build -t amznlnx Dock/.
+  287  ls
+  288  docker images
+  289  docker ps -a
+  290  docker run -it --name thangdi amznlnx /bin/bash
+  291  docker ps
+  292  docker ps -a
+  293  vi Dock/Dockerfile 
+  294  ls
+  295  cat Dock/Dockerfile 
+  296  vi linuxfile1
+  297  ls
+  298  mkdir devops
+  299  touch file{1..8}
+  300  ls
+  301  mv file* devops/
+  302  ls
+  303  cd devops/
+  304  tar -cvzf devops.tar.gz devops
+  305  cd ..
+  306  tar -cvzf devops.tar.gz devops
+  307  ls
+  308  rm -rf devops
+  309  ls
+  310  docker build -t demoimg Dock/.
+  311  ls
+  312  cd
+  313  ls
+  314  pwd
+  315  vi Dock/Dockerfile 
+  316  docker images
+  317  docker build -t demoimg Dock/.
+  318  vi Dock/Dockerfile 
+  319  docker build -t demoimg Dock/.
+  320  ls
+  321  rm -rf devops.tar.gz 
+  322  ls
+  323  mkdir devops
+  324  cd devops/
+  325  touch file{1..5}
+  326  cd
+  327  tar -cvzf devops.tar.gz devops/
+  328  ls
+  329  rm -rf devops
+  330  ls
+  331  pwd
+  332  cd /home
+  333  ls
+  334  docker build -t demoimg Dock/.
+  335  cd..
+  336  cd
+  337  ls
+  338  docker build -t demoimg Dock/.
+  339  vi Dock/Dockerfile 
+  340  docker images
+  341  docker build -t demoimg Dock/.
+  342  mv Dock/Dockerfile /
+  343  ls
+  344  mv /Dock/Dockerfile /
+  345  mv /root/Dock/Dockerfile /
+  346  mv /root/Dock/Dockerfile /root
+  347  pwd
+  348  ls
+  349  mv /Dock/Dockerfile /root/
+  350  cd Dock/
+  351  ls
+  352  cd
+  353  ls
+  354  cd Dock/
+  355  ls
+  356  cd
+  357  find -t f Dockerfile
+  358  find -f -n Dockerfile
+  359  find --help
+  360  find -type f --name Dockerfile
+  361  find -type f -name Dockerfile
+  362  ls
+  363  cd..
+  364  cd ..
+  365  ls
+  366  mv Dockerfile /root/
+  367  ls
+  368  cd
+  369  ls
+  370  rm Dock -rf
+  371  vi Dockerfile 
+  372  docker build -t demoimg .
+  373  docker images
+  374  docker rm image amznlnx
+  375  docker rm image fad82c9a990f
+  376  docker image rm amznlnx
+  377  docker ps -a
+  378  docker container rm thangdi
+  379  docker image rm amznlnx
+  380  docker images
+  381  docker run -it --name lincon demoimg /bin/bash
+  382  ls
+  383  mv Dockerfile sid
+  384  ls
+  385  vi sid
+  386  docker build -t pipta . -f sid
+  387  docker images
+  388  docker run -it --name bambl /bin/bash
+  389  docker run -it --name bambl pipta /bin/bash
+  390  docker ps -a
+  391  docker container rm pipta
+  392  docker container rm bambl
+  393  ls
+  394  vi sid 
+  395  docker run -it --name bambl pipta /bin/bash
+  396  docker images
+  397  docker container rm bambl
+  398  docker ps -a
+  399  docker images
+  400  ls
+  401  vi sid 
+  402  docker ps -a
+  403  docker build -t kildg . -f sid
+  404  docker images
+  405  docker ps -a
+  406  docker run -it --name bambl kildg /bin/bash
+  407  docker images
+  408  docker ps -a
+  409  docker container rm bambl lincon
+  410  docker images
+  411  docker image rm k*
+  412  docker image rm kildg
+  413  docker image rm pipta
+  414  docker images
+  415  cat > testfile
+  416  sed -n '3,4p' testfile
+  417  ls
+  418  docker images
+  419  docker ps -a
+  420  docker run -it --name sid -v /data demoimg /bin/bash
+  421  docker ps-a
+  422  docker ps -a
+  423  docker inspect sid | grep tdestination
+  424  docker inspect sid | grep destination
+  425  docker inspect sid | grep Destination
+  426  docker ps -a
+  427  docker start sid
+  428  docker attach sid
+  429  docker run -it --name mycont1 --volume-from sid ubuntu /bin/bash
+  430  docker run -it --name mycont1 --privileged=true --volumes-from sid ubuntu /bin/bash
+  431  docker images
+  432  docker ps -a
+  433  docker start sid
+  434  ls
+  435  cd ..
+  436  ls
+  437  docker start sid
+  438  docker attach sid
+  439  docker ps 
+  440  docker ps -a
+  441  docker start mycont1
+  442  docker attach mycont1
+  443  ls
+  444  cd
+  445  ls
+  446  vi sid
+  447  pwd
+  448  mv sid Dockerfile
+  449  ls
+  450  vi Dockerfile 
+  451  docker build -t myimg .
+  452  docker images
+  453  docker run -it --name mycont3 myimg /bin/bash
+  454  docker images
+  455  docker image rm myimg
+  456  docker ps -a
+  457  docker container rm mycont3
+  458  docker image rm myimg
+  459  docker images
+  460  docker ps -a
+  461  ls
+  462  vi Dockerfile 
+  463  docker build -t myimg .
+  464  docker run -it mycont3 myimg /bin/bash
+  465  docker run -it --name mycont3 myimg /bin/bash
+  466  docker container rm mycont3
+  467  docker images
+  468  docker image rm myimg
+  469  vi Dockerfile 
+  470  docker build -t myimg .
+  471  docker run -it --name mycont3 myimg /bin/bash
+  472  exit
+  473  ls
+  474  rm Dockerfile 
+  475  ls
+  476  vi Dockerfile
+  477  docker images
+  478  docker ps -a
+  479  docker build -t testimg .
+  480  ls
+  481  docker images
+  482  vi Dockerfile 
+  483  docker build -t testimg .
+  484  docker images
+  485  docker run -it --name mycon2 --privileged=true testimg /bin/bash
+  486  docker images
+  487  docker ps -a
+  488  docker run -it --name mycont4 --volumes-from mycon2 ubuntu /bin/bash
+  489  docker ps -a
+  490  docker start mycon2
+  491  docker attach mycon2
+  492  docker ps -a
+  493  docker run -it --name iamfromhost -v /root:/sidd --privileged=true ubuntu /bin/bash
+  494  docker images
+  495  docker ps -a
+  496  docker run -it --volumes-from iamfromhost testimg /bin/bash
+  497  docker inspect --format '{{json .Mounts}}' testimg
+  498  docker inspect --format '{{json .Mounts}}' mycon2
+  499  docker inspect --format '{{json .Mounts}}' mycon3
+  500  docker inspect --format '{{json .Mounts}}' mycont3
+  501  docker inspect --format '{{json .Mounts}}' iamfromhost
+  502  history
+  503  history > history.txt
